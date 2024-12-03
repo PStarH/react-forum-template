@@ -95,8 +95,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const updatedPosts = posts.filter(post => post.id !== postId);
     localStorage.setItem('forumPosts', JSON.stringify(updatedPosts));
 
-    // Also delete associated comments
-    const allComments = JSON.parse(localStorage.getItem(`comments_${postId}`) || '[]');
+    // Clean up associated comments
     localStorage.removeItem(`comments_${postId}`);
 
     window.dispatchEvent(new Event('storage')); // Trigger update in components
