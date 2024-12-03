@@ -16,12 +16,14 @@ ForumFlow is a modern, responsive forum template that can be used and edited by 
 
 - 📱 Responsive design optimized for all devices
 - 🎨 Modern and clean UI inspired by contemporary platforms
-- 📑 Category-based post organization
+- 📑 Filter and organise post by categories
 - ⬆️ Upvoting system for posts
 - 💬 Comment counter
 - 🔍 Search functionality
 - 👋 First-time user welcome modal
-- 📱 Mobile-friendly floating action button for creating posts
+- 📱 Mobile-friendly floating action button for creating posts as well as commenting
+- 👴 Sign-in and Sign-up functions that stores user detail
+- 👮‍♀️ Default admin account with features to delete post and add category (admin@admin.com / admin123))
 
 ## Getting Started
 
@@ -34,7 +36,7 @@ ForumFlow is a modern, responsive forum template that can be used and edited by 
 
 1. Clone the repository
 ```bash
-git clone [repository-url]
+git clone https://github.com/PStarH/react-forum-template
 cd forumflow
 ```
 
