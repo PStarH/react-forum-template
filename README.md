@@ -24,6 +24,14 @@ ForumFlow is a modern, responsive forum template that can be used and edited by 
 - 📱 Mobile-friendly floating action button for creating posts as well as commenting
 - 👴 Sign-in and Sign-up functions that stores user detail
 - 👮‍♀️ Default admin account with features to delete post and add category (admin@admin.com / admin123))
+- 🗨️ Threaded comments for organized discussions
+
+
+## Screenshots
+
+![Screenshot 1](./screenshot1.png)
+![Screenshot 2](./screenshot2.png)
+![Screenshot 3](./screenshot3.png)
 
 ## Getting Started
 
@@ -62,16 +70,24 @@ npm run build
 
 ```
 src/
-├── components/         # Reusable UI components
-│   ├── CreatePostButton.tsx
-│   ├── Header.tsx
-│   ├── PostCard.tsx
-│   ├── Sidebar.tsx
-│   └── WelcomeModal.tsx
-├── types.ts           # TypeScript interfaces
-├── App.tsx           # Main application component
-├── main.tsx         # Application entry point
-└── index.css        # Global styles
+├── components/ # Reusable UI components
+│ ├── CommentInput.tsx
+│ ├── CommentThread.tsx
+│ ├── CreatePostButton.tsx
+│ ├── CreatePostModal.tsx
+│ ├── Header.tsx
+│ ├── PostCard.tsx
+│ ├── PostDialog.tsx
+│ ├── Sidebar.tsx
+│ ├── SignInModal.tsx
+│ ├── SignUpModal.tsx
+│ └── WelcomeModal.tsx
+├── context/ # Context providers
+│ └── AuthContext.tsx
+├── types.ts # TypeScript interfaces
+├── App.tsx # Main application component
+├── main.tsx # Application entry point
+└── index.css # Global styles
 ```
 
 ## Contributing
