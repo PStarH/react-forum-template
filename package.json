@@ -11,9 +11,14 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.2.0",
+    "@headlessui/vue": "^1.7.23",
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^2.4.3",
     "lucide-react": "^0.453.0",
+    "lucide-vue-next": "^0.462.0",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "vue": "^3.5.13"
   },
   "devDependencies": {
     "@types/react": "^18.3.6",
